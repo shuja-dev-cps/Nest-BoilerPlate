@@ -16,6 +16,13 @@ cd nestjs-boilerplate
 ### Install Dependencies:
 npm i 
 
+### run  project:
+
+- ** update mongoDB_URI in app.module
+- ** Enter  npm run start:dev
+
+
+
 
 ## Importing Postman Collection
 
