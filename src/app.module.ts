@@ -6,7 +6,7 @@ import { UserModule } from './user/user.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://magnus:SHuja4646@cluster0.i3anulp.mongodb.net/nest-boilerplate'),
+    MongooseModule.forRoot('mongodb+srv://add-your-cluster-link.mongodb.net/nest-boilerplate'),
     PassportModule.register({ defaultStrategy: 'jwt' }),
     JwtModule.register({
       secret:   process.env.JWT_SECRET,
